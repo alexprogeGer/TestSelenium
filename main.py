@@ -25,7 +25,6 @@ password = PASSWORD
 username_field.send_keys(username)
 password_field.send_keys(password)
 
-# Нажимаем Enter для входа
 password_field.send_keys(Keys.RETURN)
 
 time.sleep(3)
